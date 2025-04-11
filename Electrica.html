@@ -1,0 +1,220 @@
+<html>
+    <head>
+        <title>Laboratorio de Eléctrica</title>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <center>
+            <img  align="left" src="Imagenes/Logo-TecNM.png"widt="100" height="100"/>
+            <img align="right" src="Imagenes/klipartz.com.png"widt="100" height="100"/>
+            <font size="5" face= times new roman>
+            <h1> Tecnológico Nacional De Mexico <br> <font size="6" face= times new roman>Instituto Tecnológico De Saltillo</font></h1>
+            </font>
+            <hr><br>
+        </center>
+    </head>
+    <style>
+        body {
+            margin: 30px; 
+        }
+        .boton {
+            display: block;
+            width: 50px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 700;
+            border-radius: 10px;
+            margin: 0px 1130px;
+            padding: 15px 30px;
+            background-color: #1472a8;
+            color: #fff;
+            text-decoration: none;
+            }
+        .boton:hover {
+            background-color: transparent;
+            border: 2px solid #1472a8;
+            color: #1472a8;
+        }
+        nav{
+            max-width: 1300px;
+            margin:auto;
+            background-color: #333;
+            font-size: 25px;
+            margin-top: -40px;
+        }
+        .menu-horizontal{
+            width: 95%;
+            list-style: none;
+            display: flex;
+            justify-content: space-around;
+        }
+        .menu-horizontal > li > a{
+            display: block;
+            padding: 15px 20px;
+            color: white;
+            text-decoration: none;
+        }
+        .menu-horizontal > li:hover{
+            background-color: #1472a8;
+        }
+        .menu-fixed {
+            max-width: 1300px;
+            width: 95.5%;
+            margin:auto;
+            background-color: #333;
+            position: fixed;
+            top: 0;
+            padding: 0px 0px;
+            transition:  0.2s ease;
+        }
+        .contenedor {
+            display: flex;
+            align-items: center; 
+        }
+        .imagen {
+            max-width: 100%; 
+            margin-right: 20px; 
+        }
+        .texto {
+            flex: 1; 
+            font-size: 30px;
+            font-family: 'Tahoma', sans-serif;
+        }
+        .contenedor-cuadros {
+            display: flex;
+            padding-top: 100px;
+        }
+        .cuadro-individual {
+            font-size: 25px;
+            font-family: 'Tahoma', sans-serif;
+            flex: 1; 
+            margin: 20px; 
+            padding: 15px;
+            text-align: center;
+            background-color: #d4b261; 
+            color: #000; 
+            border-radius: 10px;
+        }
+        #historia, #servicios, #equipos-software, #normativas, #horarios, #contacto {
+    margin-top: -80px; /* Ajusta este valor según el tamaño de tu menú */
+}
+        
+    </style>
+    <body>
+        <a href="index.html" class="boton"><center>Regresar</center></a>
+        <br>
+        <br>
+        <br>
+
+        <nav><center>
+            <ul class="menu-horizontal">
+                <li><a href="#historia">Historia y Origen</a></li>
+                <li><a href="#servicios">Servicios Ofrecidos y Requisitos</a></li>
+                <li><a href="#equipos-software">Equipos y Software Utilizado</a></li>
+                <li><a href="#normativas">Normativas y Colaboraciones</a></li>
+                <li><a href="#horarios">Horarios y Recomendaciones para los Estudiantes</a></li>
+                <li><a href="#contacto">Contacto y Redes Sociales</a></li>
+            </ul>
+        </center></nav>
+        <center>
+            <table border="0" width="1200" height="150" style="font-size: 40px;">
+                <tr>
+                    <td><center> Laboratorio de Eléctrica <br><a href="#h"> <img src="CampusMiravalle/img/LAB.ELECTRICA/EL.jpeg"widt="500" height="500"/></a></center></td>
+                    </tr>
+            </table>
+        </center>
+<br>
+        <div id="historia" class="contenedor-cuadros">
+            <div class="cuadro-individual">
+                <p><b>Historia y Origen</b><br><br><b>¿Cuál es la historia del Laboratorio de Ingeniería Eléctrica?</b><br>
+                    El Laboratorio de Ingeniería Eléctrica, ubicado en el campus Miravalle, tiene más de 23 años de existencia, ofreciendo su servicio al Departamento de Ingeniería Eléctrica. Aunque no se tiene la fecha exacta de su establecimiento en 1970, el laboratorio se trasladó a este campus con el propósito de brindar apoyo a diversas carreras que requieren prácticas y materias vinculadas a la ingeniería eléctrica.
+                </p>
+            </div>
+        </div>
+        <div id="servicios" class="contenedor-cuadros">
+            <div class="cuadro-individual">
+                <p><b> Servicios Ofrecidos y Requisitos </b><br><br><b>¿Qué servicios ofrece el laboratorio y a quiénes están destinados?<br></b>
+                    El laboratorio ofrece servicios a todos los estudiantes cuya retícula incluya materias relacionadas con la ingeniería eléctrica. Carreras como Ingeniería Industrial y otras afines utilizan el laboratorio para realizar prácticas que permiten comprobar la teoría aprendida en clase, observando aspectos como voltajes, corrientes y demás mediciones eléctricas.</p>
+                    <br><br><b>¿Cómo se reserva el laboratorio y cuáles son los requisitos para utilizarlo?<br></b>
+                    Para utilizar el laboratorio, es necesario reservar el espacio con anticipación. El profesor encargado debe tener conocimientos previos sobre el material disponible y las prácticas que se llevarán a cabo.</p>
+            </div>
+            </div>
+        </div>
+        <div id="equipos-software"  class="contenedor-cuadros">
+            <div class="cuadro-individual">
+                <p><b>Equipos y Software Utilizado</b><br><br><b>¿Qué herramientas están disponibles en el laboratorio?<br></b>
+                    El laboratorio cuenta con equipos indispensables como máquinas eléctricas, motores eléctricos, sistemas de medición eléctrica, osciloscipios, generador de funciones y fuentes. Además, se utiliza software especializado para programar diagramas de escalera en PLC (Controlador Lógico Programable), lo que permite la automatización de procesos eléctricos. También cuenta con motores centrales, son generadores que se manejan desde los tableros.</p>
+            </div>
+            </div>
+        </div>
+        <div  id="normativas" class="contenedor-cuadros">
+            <div class="cuadro-individual">
+                <p><b> Normativas y Colaboraciones </b><br><br><b>¿Se realizan cursos o colaboraciones con empresas?<br></b>
+                    Actualmente, no se ofrecen cursos externos ni se realizan colaboraciones con empresas, aunque en el pasado se organizaban visitas industriales y se impartían cursos tanto del personal interno como externo.</p>
+                <br><br><b>¿Pueden los estudiantes desarrollar proyectos propios en el laboratorio?<br></b>
+                No se permite que los estudiantes desarrollen proyectos de manera autónoma, ya que el reglamento establece que deben estar supervisados por un docente para garantizar el adecuado manejo de los recursos y el cumplimiento de los procedimientos.</p>
+                </div>
+            </div>
+        </div>
+        <div id="horarios"  class="contenedor-cuadros">
+            <div class="cuadro-individual">
+                <p><b> Horarios y Recomendaciones para los Estudiantes</b><br><br><b>¿Cuáles son los horarios de funcionamiento del laboratorio?<br></b>
+                    El laboratorio está disponible de 7:00 a.m. a 9:00 p.m. en un horario corrido, ofreciendo amplio espacio para que los estudiantes realicen sus prácticas.</p>
+                <br><br><b>¿Qué recomendaciones se deben seguir al utilizar el laboratorio?<br></b>
+                Se recomienda que los estudiantes traigan el equipamiento adecuado para no ocasionar daños a los equipos del laboratorio. Aunque no es necesario traer casco, es importante contar con la indumentaria adecuada para la seguridad y el manejo de los equipos.</p>
+                <br><b><br></b>                
+                    <strong>REGLAMENTO DEL LABORATORIO DE INGENIERÍA ELÉCTRICA E INGENIERÍA ELECTRÓNICA DEL INSTITUTO TECNOLÓGICO DE SALTILLO</strong><br>
+                    <strong>REGLAMENTO DE USO Y SERVICIOS DE LOS LABORATORIOS DE ELÉCTRICA Y ELECTRÓNICA</strong></p>
+                
+                    <p>1. El horario de servicio del laboratorio estará sujeto a la disponibilidad del personal adscrito al mismo. El almacén prestará servicio de Lunes a Viernes.<br>
+                    2. El uso de las <em>instalaciones</em> y de los servicios prestados por los laboratorios están reservados a maestros y alumnos adscritos al departamento.<br>
+                    3. El préstamo de equipo requiere gafete o credencial actualizada del ITS.<br>
+                    4. El préstamo es de máximo 2 horas. Manuales y catálogos solo se consultan dentro del laboratorio.<br>
+                    5. El usuario es responsable del equipo y debe reportar fallos. Está prohibido abrir los equipos.<br>
+                    6. El equipo debe devolverse media hora antes del cierre. No debe abandonarse ni dejar conectado.<br>
+                    7. En pruebas largas, solo el maestro puede dejar equipos conectados y debe notificar con carta firmada.<br>
+                    8. Las mesas deben quedar limpias y despejadas. <em>El laboratorio no se hace responsable por objetos perdidos.</em><br>
+                    9. <em>No se permite el uso de equipos de audio con volumen alto.</em><br>
+                    10. Se prohíben alimentos, bebidas y fumar.<br>
+                    11. Para trabajar fuera de horario, se requiere autorización firmada y credencial vigente. No se permiten personas ajenas.<br>
+                    12. No se puede estar solo en el laboratorio por seguridad.<br>
+                    13. Personal ajeno al departamento debe solicitar equipo por escrito. Uso restringido a instalaciones.<br>
+                    14. Préstamos fuera del edificio requieren autorización escrita y vale de salida firmado.<br>
+                    15. Equipos especiales solo se prestan con presencia del maestro.<br>
+                    16. Circuitos con químicos solo en áreas autorizadas.<br>
+                    17. No se permite el uso de equipos sin autorización ni si hay pendientes por resolver.<br>
+                    18. Casos no previstos serán resueltos por un comité (jefe de laboratorio, presidente de academia, jefe de departamento).</p>
+                
+                    <p><em>El usuario que incurra en una falta a los puntos del presente reglamento será acreedor a una sanción determinada por el comité.</em></p>
+                </div>
+            </div>
+        </div>
+        <div  id="contacto"  class="contenedor-cuadros">
+            <div class="cuadro-individual">
+                <p><b> Contacto</b><br><br><b>¿Cómo puedo ponerme en contacto con el laboratorio?<br></b>
+                    Para más información o reservas, puede contactar a:</p>
+                    <b>Felipe Alberto Machorro Fernández<br> </b>Jefe del Especialidad de Ingeniería Eléctrica
+                   <br>Teléfono: 844 438 9500
+                   <br><b>Luis Manuel Navarro Huitron<br> </b>Jefe del Laboratorio de Ingeniería Eléctrica
+                   <br>Teléfono: 844 204 0035  
+                   <br><b>Por la mañana: José Eliseo Flores, Por la tarde: Jose Luis Ramírez González </b>
+                   <br>Asistentes de laboratorio
+                   <br>Correo: jose.fj@saltillo.tecnm.mx, jose.rg@saltillo.tecnm.mx
+                   
+                    </p>
+            </div>
+            </div>
+        </div>
+    </body>
+
+    <script>
+        $(document).ready(function(){
+            var altura = $('.menu-horizontal').offset().top;
+            
+            $(window).on('scroll', function(){
+                if ( $(window).scrollTop() > altura ){
+                    $('.menu-horizontal').addClass('menu-fixed');
+                } else {
+                    $('.menu-horizontal').removeClass('menu-fixed');
+                }
+            });
+        });
+    </script>
+</html>
